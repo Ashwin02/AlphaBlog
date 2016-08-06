@@ -1,2 +1,67 @@
+
+$navbar-default-bg: #685642;
+
+#logo{
+    float: left;
+    font-size: 1.7em;
+    color: #B7C68B;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-family: optima;
+}
+
+.center {
+    text-align:center;
+}
+
+#blog_img{
+    align: middle;
+    border-radius: 8px;
+}
+#logo:hover{
+    color: #F4F0CB;
+    text-decoration: none;
+}
+
+#options {
+    font-family: optima;
+    color: #F4F0CB;
+}
+
+#options:hover{
+    color: #B7C68B;
+    text-decoration: none;
+}
+
+#name{
+    color: #B7C68B;
+}
+
+footer{
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777 ;
+}
+
+footer a:hover{
+    color: #222;
+}
+
+footer small{
+    float: left;
+}
+
+footer ul{
+    float: right;
+    list-style: none;
+}
+
+footer ul li{
+     float: left;
+     margin-left: 15px;
+}
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
