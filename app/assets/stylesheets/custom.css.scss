@@ -97,6 +97,16 @@ footer ul li{
     padding-left: 0;
 }
 
+.label{
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.input_checkbox input{
+    width: auto !important;
+}
 
 @import "bootstrap-sprockets";
 @import "bootstrap";

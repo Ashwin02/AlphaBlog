@@ -26,7 +26,8 @@ class ArticlesController < ApplicationController
            redirect_to article_path(@article)
        else
            render 'new'
-        end
+       end
+        
     end
     
     def update
@@ -37,8 +38,8 @@ class ArticlesController < ApplicationController
        else
            
          render 'edit'
-         
-         end
+       end
+        
     end
     
     def show 
@@ -57,10 +58,10 @@ class ArticlesController < ApplicationController
     
          def set_article
              @article = Article.find(params[:id])
-        end
+         end
         
         def article_params
-           params.require(:article).permit(:title, :description)
+           params.require(:article).permit(:title, :description, category_ids: [])
         end
         
         def require_same_user
